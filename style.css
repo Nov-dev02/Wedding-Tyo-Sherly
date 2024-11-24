@@ -34,6 +34,11 @@ body {
 .hero p {
   text-shadow: var(--shadow);
 }
+.img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
 
 .hero h1 {
   color: #564ef1;
