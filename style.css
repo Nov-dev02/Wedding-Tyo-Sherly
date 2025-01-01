@@ -265,6 +265,9 @@ body {
 .list-group{
   color: aqua;
 }
+.Contact a {
+  color: #fbfafa;
+}
 
 
 .timeline {
