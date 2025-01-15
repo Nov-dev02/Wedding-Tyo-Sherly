@@ -40,7 +40,7 @@
       <h3>Halo, selamat datang di website undangan pernikahan Revito Andika & Dina Ayuni</h3>
       <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
       <h1>Vito & Dina</h1>
-      <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+      <p contenteditable="true">Akan melangsungkan resepsi pernikahan dalam:</p>
       <div class="simply-countdown" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="200" ></div>
       <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
     </main>
@@ -191,6 +191,7 @@
           <h2>Kirim Hadiah</h2>
           <p>Terimakasih Telah Mengisi Web Ini
           </p>
+          <p2>Silahkan klik icon copy di sebelah kotak id Dana</p2>
         </div>
       </div>
 
@@ -200,8 +201,8 @@
             <li class="list-group-item">
             </li>
             <li class="list-group-item">
-              <div class="fw-bold">DANA.ID (DINA AYUNI)</div>
-              <input type="text" class="input" value="085735322335" id="mycode">
+              <div class="dana-id">DANA.ID (DINA AYUNI)</div>
+              <input type="text" class="input" placeholder="085735322335" id="mycode" readonly>
                 <button type="submit" class="btn-copy" onclick="myFunction()">
                   <i class="far fa-copy"></i>
                 </button>
@@ -213,10 +214,10 @@
                       var copyText = document.getElementById('mycode');
                       copyText.select();
                       copyText.setSelectionRange(0, 99999);
-                      navigator.clipboard.writeText(copyText.value);
+                      navigator.clipboard.writeText(copyText.placeholder);
           
                       var tooltip = document.getElementById('myToolcode');
-                      tooltip.innerHTML = "Copied:" + copyText.value; 
+                      tooltip.innerHTML = "Copied:" + copyText.placeholder; 
                   }
           
                   function outFunction() {
