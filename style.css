@@ -290,7 +290,7 @@ body {
   margin-bottom: 1rem;
 }
 .gifts p {
-  ext-transform: uppercase;
+  text-transform: uppercase;
   color: #1eedf8;
   font-size: 0.9rem;
   letter-spacing: 1px;
