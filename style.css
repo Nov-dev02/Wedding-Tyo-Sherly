@@ -493,12 +493,12 @@ form {
 }
 .entryarea input:focus,
 .entryarea input:valid {
-  color: #000;
+  color: #fff;
   border: 3px solid #3794ff;
 }
 .entryarea textarea:focus,
 .entryarea textarea:valid {
-  color: #000;
+  color: #fff;
   border: 3px solid #3794ff;
 }
 .entryarea input:focus + .labelline,
