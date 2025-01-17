@@ -439,7 +439,7 @@ body {
 }
 .Contact .container {
   position: relative;
- background: rgb(12, 1, 80);
+ background: #fff;
   border: 1px solid #63b4b8;
   border-radius: 10px;
   width: 480px;
@@ -493,12 +493,12 @@ form {
 }
 .entryarea input:focus,
 .entryarea input:valid {
-  color: #fff;
+  color: #000;
   border: 3px solid #3794ff;
 }
 .entryarea textarea:focus,
 .entryarea textarea:valid {
-  color: #fff;
+  color: #000;
   border: 3px solid #3794ff;
 }
 .entryarea input:focus + .labelline,
@@ -516,7 +516,7 @@ form {
   right: 30px;
   font-size: 1.8em;
   z-index: 11;
-  color:#ffffff40
+  color:#000000
 }
 .entryarea textarea {
   line-height: 20px;
@@ -545,10 +545,10 @@ transition: 0.2 ease;
 .entryarea .labelline {
   position: absolute;
   font-size: 1.2em;
-  color: #01fcfc;
+  color: #000b0b;
   padding: 0 5px;
   margin: 0 20px;
-  background: rgb(12, 1, 80);
+  background: #fff;
   transition: 0.2s ease;
 }
 .container .info h3 {
