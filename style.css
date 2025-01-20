@@ -466,11 +466,7 @@ body {
      background-position: 200%;
    }
 }
-form {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 50px;
-}
+
 .entryarea {
   position: relative;
   height: 60px;
