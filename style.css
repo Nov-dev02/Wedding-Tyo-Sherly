@@ -578,12 +578,18 @@ transition: 0.2 ease;
   color: #fff;
 }
 .Contact .btn {
+  font-size: 1.2em;
+font-weight: bold;
 font-family: "poppins"sans-serif;
 align-items: center;
 padding: 10px 15px;
-border-radius: 7px;
-border: none;
-color: #000;
+border-radius: 10px;
+border: 1px solid #000;
+color: #fff;
+background: #000;
+}
+.Contact .btn:hover {
+  background:  blue;
 }
  /**
    * Contact-End
