@@ -442,7 +442,7 @@ body {
  background: #01fcfc;
   border: 1px solid #63b4b8;
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
   box-shadow: 0 5px 20px rgb(4, 176, 255)
 }
 .Contact .heading {
@@ -584,12 +584,12 @@ font-family: "poppins"sans-serif;
 align-items: center;
 padding: 10px 15px;
 border-radius: 10px;
-border: 1px solid #000;
+border: 1px solid #660505;
 color: #fff;
-background: #000;
+
 }
 .Contact .btn:hover {
-  background:  blue;
+  background:  lightgreen;
 }
  /**
    * Contact-End
