@@ -438,13 +438,16 @@ body {
    */
 }
 .Contact .container {
+  height: 100%;
   position: relative;
- background: #01fcfc;
-  border: 1px solid #63b4b8;
+  background: #0C2340;
   border-radius: 10px;
   width: 100%;
-  box-shadow: 0 5px 20px rgb(4, 176, 255)
+  position: relative;
+  border:1px solid #010d0e;
+  box-shadow: 1px 1px 20px #15f4ee;
 }
+
 .Contact .heading {
   margin-top: 20px;
   text-align: center;
@@ -490,22 +493,25 @@ form {
   padding: 20px;
   padding-right: 5em;
   background: transparent;
+  color: #fff;
 }
 .entryarea input:focus,
 .entryarea input:valid {
-  color: #000;
+  font-size: 1.23em;
+  color: #fff;
   border: 3px solid #3794ff;
 }
 .entryarea textarea:focus,
 .entryarea textarea:valid {
-  color: #000;
+  font-size: 1.23em;
+  color: #FFF;
   border: 3px solid #3794ff;
 }
 .entryarea input:focus + .labelline,
 .entryarea input:valid + .labelline,
 .entryarea textarea:focus + .labelline,
 .entryarea textarea:valid + .labelline {
-  color: #3794ff;
+  color: #0CCCCf;
   transform: translate(-8px,-15px) scale(0.88);
   height: 30px;
   line-height: 30px;
@@ -516,7 +522,7 @@ form {
   right: 30px;
   font-size: 1.8em;
   z-index: 11;
-  color:#959595a0
+  color:#007791
 }
 .entryarea textarea {
   line-height: 20px;
@@ -535,9 +541,10 @@ form {
 
 .Contact textarea,
 .Contact input {
+padding-bottom: 10px;
 left: 0;
 position: absolute;
-border: 1px solid #63b4b8;
+border: 1px solid #007791;
 border-radius: 10px;
 transition: 0.2 ease;
 
@@ -545,10 +552,10 @@ transition: 0.2 ease;
 .entryarea .labelline {
   position: absolute;
   font-size: 1.2em;
-  color: #949797d4;
-  padding: 0 5px;
+  color: #007791;
+  padding: 0 1px;
   margin: 0 20px;
-  background:#01fcfc;
+  background:#0C2340;
   transition: 0.2s ease;
 }
 .container .info h3 {
@@ -584,7 +591,7 @@ font-family: "poppins"sans-serif;
 align-items: center;
 padding: 10px 15px;
 border-radius: 10px;
-border: 1px solid #660505;
+border: 1px solid gold;
 color: #fff;
 
 }
