@@ -445,14 +445,14 @@ body {
   width: 100%;
   position: relative;
   border:1px solid #010d0e;
-  box-shadow: 1px 1px 20px #15f4ee;
+  box-shadow: 1px 1px 20px #7DF9FF;
 }
 
 .Contact .heading {
   margin-top: 20px;
   text-align: center;
   font-family: "poppons", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5em;
   margin-bottom: 1rem;
   text-transform: uppercase;
   text-align: center;
@@ -551,7 +551,7 @@ transition: 0.2 ease;
 }
 .entryarea .labelline {
   position: absolute;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #007791;
   padding: 0 1px;
   margin: 0 20px;
