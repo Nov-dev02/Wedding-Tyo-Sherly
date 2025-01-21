@@ -577,6 +577,14 @@ transition: 0.2 ease;
 .container .info i {
   color: #fff;
 }
+.Contact .btn {
+font-family: "poppins"sans-serif;
+align-items: center;
+padding: 10px 15px;
+border-radius: 7px;
+border: none;
+color: #000;
+}
  /**
    * Contact-End
    */
