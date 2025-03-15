@@ -629,7 +629,7 @@ transition: 0.2 ease;
   font-size: 22px;
   font-weight: bold;
   padding: 12px 45px;
-  color: white;
+  color: lightskyblue;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -657,6 +657,16 @@ transition: 0.2 ease;
   transform: translateY(1px);
   box-shadow: 1px 1px 0  #5a0055, 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+.Contact .btn .fa-regular {
+  color: lightseagreen;
+  font-size: 25px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+/**
+   * Contact-End
+   */
 .timeline {
   list-style: none;
   padding: 1.4rem 0;
@@ -826,6 +836,8 @@ footer li {
   align-items: center;
   line-height: 0;
 }
+
+
 
 @keyframes rotating {
   from {
