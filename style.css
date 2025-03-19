@@ -811,6 +811,11 @@ footer a {
 footer a:hover {
   color: white;
 }
+footer p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  color: #b1b4b3;
+}
 
 footer li {
   list-style: none;
@@ -858,17 +863,17 @@ footer li {
   color: #100000;
 }
 .wrapper .icon i:hover {
-  color: #ffff
+  color: #ffff;
 }
 .wrapper .icon:active {
   box-shadow: 
   5px 5px 10px 0 rgba(0, 0, 0, 0.3) inset,
   -5px -5px 12px 0 rgba(255, 255, 255, 0.25) inset;
 }
-.info .icon i {
-  font-size: 20px;
-  margin: 7px;
-  color: #626161;
+.info span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #b6afaf;
   justify-content: center;
   text-align: center;
 }
