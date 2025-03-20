@@ -601,8 +601,9 @@ transition: 0.2 ease;
   transition: 0.2s ease;
 }
 .container .info h3 {
-  font-family: "poppons", sans-serif;
- font-size: 1rem;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: bold;
+ font-size: 1.5rem;
  margin-bottom: 1rem;
  text-transform: uppercase;
  text-align: center;
@@ -619,12 +620,35 @@ transition: 0.2 ease;
     background-position: 200%;
   }
 }
-.container .info a, i {
-  font-family: "poppins" sans-serif;
-  color: #fff;
+.container .info a1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  color: #b0abab; 
+  font-size: 1.8rem;
 }
-.container .info i {
-  color: #fff;
+.container .info span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  color:#b0abab;
+  top: 10px;
+}
+.container .info a2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  color: #b0abab; 
+  top: 10px;
+}
+
+
+.container .info h4 {
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: #494a4a;
+  margin: 0;
+  padding: 0;
+  top: 40px;
+  font-weight: bold;
 }
 .Contact .btn {
   margin-top: 15px;
@@ -845,9 +869,12 @@ footer li {
   line-height: 0;
 }
 .wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
+  top: 50px;
 }
 .wrapper .icon {
   height: 50px;
@@ -861,25 +888,20 @@ footer li {
   align-items: center;
   border-radius: 50%;
 }
+
 .wrapper .icon i {
   font-size: 18px;
   color: #f8f8f8;
 }
 .wrapper .icon i:hover {
-  color: #620404;
+  color: #000000;
 }
 .wrapper .icon:active {
   box-shadow: 
   5px 5px 10px 0 rgba(0, 0, 0, 0.3) inset,
   -5px -5px 12px 0 rgba(255, 255, 255, 0.25) inset;
 }
-.container .info h4 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  color: #03efd8;
-  margin: 0;
-  padding: 0;
-}
+
 
 
 @keyframes rotating {
