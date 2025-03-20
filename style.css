@@ -1,6 +1,6 @@
 :root {
   --pink: #f14eb0;
-  --bg: #0a0a0a;
+  --bg: #000;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -173,7 +173,7 @@ body {
   font-weight: bold;
 }
 .info {
-  background-image: url(img/bg.png);
+ background: #ffff;
 }
 .info .alamat {
   font-family: "poppons", sans-serif;
@@ -626,10 +626,10 @@ transition: 0.2 ease;
   color: #b0abab; 
   font-size: 1.8rem;
 }
-.container .info span {
+.container .info h5 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
-  color:#b0abab;
+  color:#ffff;
   top: 10px;
 }
 .container .info a2 {
@@ -644,10 +644,10 @@ transition: 0.2 ease;
   position: relative;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
-  color: #494a4a;
+  color: #028f8f;
   margin: 0;
   padding: 0;
-  top: 40px;
+  top: 20px;
   font-weight: bold;
 }
 .Contact .btn {
@@ -868,40 +868,122 @@ footer li {
   align-items: center;
   line-height: 0;
 }
-.wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  top: 50px;
-}
-.wrapper .icon {
-  height: 50px;
-  width: 50px;
-  margin: 7px;
-  box-shadow: 
-  7px 7px 16px 0 rgba(0, 0, 0, 0.25),
-  -7px -7px 16px 0 rgba(14, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
+/**
+   * Wrapper
+   */
+   .wrapper {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+   }
+   .wrapper .icon {
+    position: relative;
+    background: #ffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10x rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    top: 40px;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   }
+   .wrapper .name {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   }
+   .wrapper .name::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   }
+   .wrapper .icon:hover .name {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+   }
+   .wrapper .icon:hover span,
+   .wrapper .icon:hover .name {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+   }
+   .wrapper .facebook:hover,
+   .wrapper .facebook:hover .name,
+   .wrapper .facebook:hover .name::before {
+    background: #1877f2;
+    color: #ffffff;
+   }
+   .wrapper .instagram.hover .name::before {
+    background: #ffa724;
+    color: #ffffff;
+   }
+   .wrapper .instagram:hover,
+   .wrapper .instagram:hover .name {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+    );
+   }
+   .wrapper .github:hover,
+   .wrapper .github:hover .name,
+   .wrapper .github:hover .name::before {
+    background: #333333;
+    color: #ffffff;
+   }
+   .wrapper .youtube:hover,
+   .wrapper .youtube:hover .name,
+   .wrapper .youtube:hover .name::before {
+    background: #cd201f;
+    color: #ffffff;
+   }
+   .wrapper .tiktok:hover,
+   .wrapper .tiktok:hover .name,
+   .wrapper .tiktok:hover .name::before {
+    background: #333333;
+    color: #ffffff;
+   }
+   .wrapper .whatsapp:hover,
+   .wrapper .whatsapp:hover .name,
+   .wrapper .whatsapp:hover .name::before {
+    background: #25d366;
+    color: #ffffff;
+   }
+   .wrapper i {
+    color: #333333;
+   }
+   .wrapper i:hover {
+    color: #ffffff;
+   }
 
-.wrapper .icon i {
-  font-size: 18px;
-  color: #f8f8f8;
-}
-.wrapper .icon i:hover {
-  color: #000000;
-}
-.wrapper .icon:active {
-  box-shadow: 
-  5px 5px 10px 0 rgba(0, 0, 0, 0.3) inset,
-  -5px -5px 12px 0 rgba(255, 255, 255, 0.25) inset;
-}
-
+ /**
+   * Wrapper-End
+   */
 
 
 @keyframes rotating {
