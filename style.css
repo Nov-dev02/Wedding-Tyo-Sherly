@@ -745,8 +745,6 @@ transition: 0.2 ease;
     padding: 20px;
    }
    .container .box .content img {
-    position: relative;
-    top: 10px;
     margin-bottom: -10px;
     width: 100px;
     height: 100px;
@@ -754,22 +752,19 @@ transition: 0.2 ease;
     object-fit: cover;
    }
    .container .box .content h3 {
-    position: relative;
-    top: 20px;
     font-size: 1rem;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
    }
    .container .box .content h6 {
-    position: relative;
-    top: 10px;
+    margin-top: -5px;
     color: gray;
     font-size: 0.9rem;
     text-transform: uppercase;
    }
    .container .box .content hr {
-    width: 60px;
+    width: 50px;
     height: 1px;
     background: #a2a2a258;
     margin-top: -5px;
