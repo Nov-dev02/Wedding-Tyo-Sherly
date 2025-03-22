@@ -745,24 +745,31 @@ transition: 0.2 ease;
     padding: 20px;
    }
    .container .box .content img {
+    position: relative;
+    top: 10px;
+    margin-bottom: -10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
    }
    .container .box .content h3 {
+    position: relative;
+    top: 20px;
     font-size: 1rem;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
    }
    .container .box .content h6 {
+    position: relative;
+    top: 10px;
     color: gray;
     font-size: 0.9rem;
     text-transform: uppercase;
    }
    .container .box .content hr {
-    width: 50px;
+    width: 60px;
     height: 1px;
     background: #a2a2a258;
     margin-top: -5px;
@@ -778,7 +785,7 @@ transition: 0.2 ease;
     background: linear-gradient(45deg, #9900ff, #ff00a6);
     border-radius: 50px;
     padding: 5px 15px;
-    margin-top: 10px;
+    margin-bottom: 20px;
    }
    
 
