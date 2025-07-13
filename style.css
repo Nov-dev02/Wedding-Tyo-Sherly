@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/logo.jpg);
+  background-image: url(img/bc.jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -153,7 +153,7 @@ body {
 }
 
 .home {
-  background-image: url(img/bg.png);
+  background-image: url(img/bg2.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -774,7 +774,9 @@ transition: 0.2 ease;
     background: #a2a2a258;
     margin-top: -5px;
    }
-   .container .box .content p {
+   .container .box .content p { 
+    position: relative;
+    font-family: monospace;
     color: rgb(221, 221, 221);
     text-align: center;
     font-size: 0.9rem;
@@ -967,15 +969,54 @@ footer li {
 /**
    * Wrapper
    */
+    .Sosial   {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      min-height: 100vh;
+      padding: 20px;
+      width: 100%;
+      background: #0c1022;;
+    }
+    .Sosial .container {
+      position: relative;
+      z-index: 1000;
+      width: 100%;
+      max-height: 1000px;
+      padding-bottom: 50px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .Sosial::before {
+      content:'';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(#ffeb3b, #e91e63);
+      border-radius: 50%;
+      transform: translate(-420px, 180px);
+    }
+
+    .Sosial::after {
+      content:'';
+      position: absolute;
+      width: 350px;
+      height: 350px;
+      background: linear-gradient(#2196f3, #83d8ff);
+      border-radius: 50%;
+      transform: translate(400px, 180px);
+    }
+  
   
    
-   .wrapper {
+   .Sosial .wrapper {
+    
     display: inline-flex;
     list-style: none;
     justify-content: center;
     align-items: center;
    }
-   .wrapper .icon {
+   .Sosial .wrapper .icon {
     position: relative;
     background: #ffff;
     border-radius: 50%;
@@ -993,7 +1034,7 @@ footer li {
     top: 450px;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-   .wrapper .name {
+   .Sosial .wrapper .name {
     position: absolute;
     top: 0;
     font-size: 14px;
@@ -1006,7 +1047,7 @@ footer li {
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-   .wrapper .name::before {
+  .Sosial .wrapper .name::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -1017,28 +1058,28 @@ footer li {
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    }
-   .wrapper .icon:hover .name {
+    .Sosial .wrapper .icon:hover .name {
     top: -45px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
    }
-   .wrapper .icon:hover span,
-   .wrapper .icon:hover .name {
+   .Sosial .wrapper .icon:hover span,
+   .Sosial .wrapper .icon:hover .name {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
    }
-   .wrapper .facebook:hover,
-   .wrapper .facebook:hover .name,
-   .wrapper .facebook:hover .name::before {
+   .Sosial .wrapper .facebook:hover,
+   .Sosial .wrapper .facebook:hover .name,
+   .Sosial .wrapper .facebook:hover .name::before {
     background: #1877f2;
     color: #ffffff;
    }
-   .wrapper .instagram.hover .name::before {
+   .Sosial .wrapper .instagram.hover .name::before {
     background: #ffa724;
     color: #ffffff;
    }
-   .wrapper .instagram:hover,
-   .wrapper .instagram:hover .name {
+   .Sosial .wrapper .instagram:hover,
+   .Sosial .wrapper .instagram:hover .name {
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%,
     #fdf497 0%,
@@ -1048,34 +1089,34 @@ footer li {
     #285aeb 90%
     );
    }
-   .wrapper .github:hover,
-   .wrapper .github:hover .name,
-   .wrapper .github:hover .name::before {
+   .Sosial .wrapper .github:hover,
+   .Sosial .wrapper .github:hover .name,
+   .Sosial .wrapper .github:hover .name::before {
     background: #333333;
     color: #ffffff;
    }
-   .wrapper .youtube:hover,
-   .wrapper .youtube:hover .name,
-   .wrapper .youtube:hover .name::before {
+   .Sosial .wrapper .youtube:hover,
+   .Sosial .wrapper .youtube:hover .name,
+   .Sosial .wrapper .youtube:hover .name::before {
     background: #cd201f;
     color: #ffffff;
    }
-   .wrapper .tiktok:hover,
-   .wrapper .tiktok:hover .name,
-   .wrapper .tiktok:hover .name::before {
+   .Sosial .wrapper .tiktok:hover,
+   .Sosial .wrapper .tiktok:hover .name,
+   .Sosial .wrapper .tiktok:hover .name::before {
     background: #333333;
     color: #ffffff;
    }
-   .wrapper .whatsapp:hover,
-   .wrapper .whatsapp:hover .name,
-   .wrapper .whatsapp:hover .name::before {
+   .Sosial .wrapper .whatsapp:hover,
+   .Sosial .wrapper .whatsapp:hover .name,
+   .Sosial .wrapper .whatsapp:hover .name::before {
     background: #25d366;
     color: #ffffff;
    }
-   .wrapper i {
+   .Sosial .wrapper i {
     color: #333333;
    }
-   .wrapper i:hover {
+   .Sosial .wrapper i:hover {
     color: #ffffff;
    }
 
