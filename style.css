@@ -702,7 +702,7 @@ transition: 0.2 ease;
      margin: 0;
      padding: 0;
      font-weight: bold;
-     top: 60px;
+     
    }
    
    .container .box {
@@ -1021,7 +1021,7 @@ footer li {
     flex-direction: column;
     box-shadow: 0 10px 10x rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    top: 100px;
+    top: 10px;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     
    }
