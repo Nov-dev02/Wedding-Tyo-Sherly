@@ -649,15 +649,15 @@ transition: 0.2 ease;
    * info */
    .container h7 {
     position: relative;
+    font-family: poppins, sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fff;
+    z-index: 1;
+    overflow: hidden;
     top: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    text-align: center;
     background: linear-gradient(to right, #322ff4, #8f68ff, #487bff,
-    #8f68ff, #fc72ff);
+    #8f68ff, #070007);
     background-size: 200%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -667,7 +667,11 @@ transition: 0.2 ease;
    @keyframes animate-gradient {
      to {
        background-position: 200%;
-     }
+
+   }
+  }
+   .container h7 span {
+    color: #ff022c;
    }
    .container .box a1 {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
