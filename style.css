@@ -656,19 +656,7 @@ transition: 0.2 ease;
     z-index: 1;
     overflow: hidden;
     top: 50px;
-    background: linear-gradient(to right, #322ff4, #8f68ff, #487bff,
-    #8f68ff, #070007);
-    background-size: 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate-gradient 2.5s linear infinite;
-   }
-   @keyframes animate-gradient {
-     to {
-       background-position: 200%;
-
-   }
+   
   }
    .container h7 span {
     color: #ff022c;
