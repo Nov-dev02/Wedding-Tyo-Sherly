@@ -62,9 +62,9 @@ body {
 }
   
 .hero .container h3{
-  position: relative;
+  position: absolute;
   font-weight: 900;
-  font-size: 1.4rem;
+  font-size: 25px;
   font-family: "poppons", sans-serif;
  text-align: center;
  align-items: center;
@@ -72,11 +72,12 @@ body {
  border-radius: 20px;
  padding: 10px;
  background: rgba(255, 255, 255, 0.1);
- box-shadow: 0 25px 45px rgba(0,0,0,0.1);
- top: -180px;
+ box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+ left: 0;
+  top: -235px;
 }
 .hero .container h3 span {
-  color: #ff022c;
+  color: #02ffe1;
 }
 
 
