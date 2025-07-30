@@ -1204,13 +1204,13 @@ s
 }
 
 /* mobile phone */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   html {
     font-size: 60%;
   }
 
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 30px;
     margin: 3px;
   }
 
@@ -1230,5 +1230,8 @@ s
 
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .home .heart .Sosial .hero {
+    transform: translateX(-50%) translateY(45px);
   }
 }
