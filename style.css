@@ -1124,7 +1124,7 @@ s
 /* Media Query */
 /* Extra large */
 @media (max-width: 1200px) {
-  .home .heart .Sosial {
+  .home .heart .Sosial .hero {
     transform: translateX(-50%) translateY(45px);
   }
 }
