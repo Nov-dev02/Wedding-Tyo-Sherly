@@ -1,6 +1,6 @@
 :root {
-  --pink: #322ff4;
-  --bg: #0c1022;
+  --pink: #06356d;
+  
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -8,6 +8,7 @@ body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
   min-height: 4000px;
+  background: linear-gradient(135deg, #000000,#203a43,#2c5364);
 }
 
 .hero::before {
@@ -63,7 +64,6 @@ body {
   
 .hero .container h3{
   position: absolute;
-  
   font-size: 20px;
   font-family: "poppons", sans-serif;
  text-align: center;
@@ -73,7 +73,10 @@ body {
  padding: 10px;
  margin-bottom: 1rem;
  background: rgba(255, 255, 255, 0.2);
- box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+ backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-color: white;
  left: 0;
  right: 0;
   bottom: 110%;
@@ -181,6 +184,10 @@ body {
 }
 .info {
  background: #ffff;
+}
+.info h2 {
+  font: bold 3rem "poppins", sans-serif;
+  color: #2c83ed;
 }
 .info .alamat {
   font-family: "poppons", sans-serif;
@@ -655,18 +662,28 @@ transition: 0.2 ease;
 
    /**
    * info */
-   .container h7 {
+   .developer h7 {
     position: relative;
     font-family: poppins, sans-serif;
-    font-size: 2em;
+    font-size: 50px;
     font-weight: 900;
     color: #fff;
     z-index: 1;
     overflow: hidden;
-    top: 50px;
-   
+    top: 50px; 
+    padding: 20px; 
+    border-radius: 50px;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: white;
+    width: 39%;
+    
   }
-   .container h7 span {
+
+  
+   .developer h7 span {
     color: #ff022c;
    }
    .container .box a1 {
@@ -718,6 +735,7 @@ transition: 0.2 ease;
      border-radius: 20px;
      display: flex; 
      overflow: hidden;
+     right: 0;
    }
    .box::after {
     content: "";
@@ -986,7 +1004,7 @@ footer li {
     padding: 10px;
     height: 40%;
     width: 40%;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.0);
     box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-right: 1px solid rgba(255, 255, 255, 0.25);
