@@ -342,6 +342,7 @@ body {
   background: transparent;
   transition: 0.1s ease;
 }
+
 .dana-id {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:#01fcfc;
@@ -351,7 +352,7 @@ body {
 }
 .fw-bold {
  font-family: "poppons", sans-serif;
- font-size: 1rem;
+ font-size: 1.5rem;
  margin-bottom: 1rem;
  text-transform: uppercase;
  text-align: center;
@@ -379,7 +380,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 15px;
   position: relative;
-  color: #b0abab;
+  color:  #818181;
 }
 .btn-copy {
   background: transparent;
@@ -1210,7 +1211,7 @@ s
   }
 
   .simply-countdown > .simply-section {
-    padding: 30px;
+    padding: 35px;
     margin: 3px;
   }
 
