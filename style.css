@@ -76,7 +76,7 @@ body {
  backdrop-filter: blur(12px);
       box-shadow: 0 8px 32px rgba(0,0,0,0.25);
       border: 1px solid rgba(255, 255, 255, 0.2);
-      border-color: rgb(2, 10, 115);
+      border-color: white;
  left: 0;
  right: 0;
   bottom: 96%;
@@ -671,14 +671,14 @@ transition: 0.2 ease;
     z-index: 1;
     overflow: hidden;
     top: 50px; 
-    padding: 10px; 
-    border-radius: 20px;
+    padding: 20px; 
+    border-radius: 50px;
      background: rgba(255, 255, 255, 0.1);
      backdrop-filter: blur(12px);
       box-shadow: 0 8px 32px rgba(0,0,0,0.25);
       border: 1px solid rgba(255, 255, 255, 0.2);
-      border-color: rgb(2, 10, 115);
-    width: 15%;
+      border-color: white;
+    width: 30%;
     
   }
 
